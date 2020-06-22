@@ -1,0 +1,28 @@
+{
+  "name": "wordstocker",
+  "version": "1.0.0",
+  "description": "©️Ryosuke Nakui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/copy-webpack-plugin": "^6.0.0",
+    "@types/webpack": "^4.41.17",
+    "copy-webpack-plugin": "^6.0.2",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "ts-loader": "^7.0.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "sinon-chrome": "^3.0.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
