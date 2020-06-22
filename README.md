@@ -32,7 +32,7 @@ Web ページで範囲選択した英単語を後で見る為に作成しまし�
 # インストール方法
 
 1. Git からクローンしてください。  
-   `git clone URL`
+   `git clone https://github.com/dmpfile/WordStocker.git`
 
 2. [Chrome Extention](chrome://extensions/)にアクセスしてください。
 3. **パッケージ化されていない拡張機能を読み込む**をクリックして、**dist**フォルダを選択してくだい。

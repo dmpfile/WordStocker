@@ -34,7 +34,7 @@ You can be used instead of Clipboard.
 # Get Started
 
 1. Clone program  
-   `git clone URL`
+   `git clone https://github.com/dmpfile/WordStocker.git`
 
 2. Access to [Chrome Extention](chrome://extensions/)
 3. Click **LOAD UNPACKED** and select the **dist** directory.
