@@ -21,7 +21,6 @@ function reserve(arr: string[]) {
   if(arr[0] != undefined || arr[0] != ""){
     // 配列の先頭を使う
     let param = arr[0];
-    console.log(param);
 
     // メッセージ送信
     chrome.runtime.sendMessage(param)

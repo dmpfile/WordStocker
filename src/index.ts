@@ -118,7 +118,7 @@ window.onload = function(){
   // ローカルストレージを見てトグルの状態を指定する
   let state = localStorage.getItem("state");
   if(state === undefined){
-    console.log('Hello, World!');
+    ;
   } else if (state === 'popup-state-true'){
     let el = toggle as HTMLInputElement;
     el.checked = true;
