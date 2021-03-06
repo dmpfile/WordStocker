@@ -101,7 +101,7 @@ const ul = document.getElementById('list');
 ul?.addEventListener('click', function(event){
   let el = event.target as HTMLInputElement;
   let text = el.textContent;
-  if(text != null){
+  if(text != null && text !== '保存されていません'){
     navigator.clipboard.writeText(text);
   }
 });
